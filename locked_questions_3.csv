@@ -1,0 +1,668 @@
+id,title,cn_title,description,can_find_answer,accessible_website_jiuzhang,accessible_website_a_company
+489,Robot Room Cleaner,-,-,0,-,http://206.81.6.248:12306/leetcode/robot-room-cleaner/description
+708,Insert into a Cyclic Sorted List,向循环有序链表插入节点,"Given a node from a cyclic linked list which has been sorted, write a function to insert a value into the list such that it remains a cyclic sorted list. The given node can be any single node in the list. Return the inserted new node.",0,-,http://206.81.6.248:12306/leetcode/insert-into-a-cyclic-sorted-list/description
+800,Similar RGB Color,相似的RGB颜色,"In the following, every capital letter represents some hexadecimal digit from `0` to `f`.
+
+The red-green-blue color `""#AABBCC""` can be written as `""#ABC""` in shorthand.  For example, `""#15c""` is shorthand for the color `""#1155cc""`.
+
+Now, say the similarity between two colors `""#ABCDEF""` and `""#UVWXYZ""` is `-(AB - UV)^2 - (CD - WX)^2 - (EF - YZ)^2`.
+
+Given the color `""#ABCDEF""`, return a 7 character color that is most similar to `#ABCDEF`, and has a shorthand (that is, it can be represented as some `""#XYZ""`)",1,https://www.jiuzhang.com/solution/similar-rgb-color,http://206.81.6.248:12306/leetcode/similar-rgb-color/description
+776,Split BST,-,-,0,-,http://206.81.6.248:12306/leetcode/split-bst/description
+774,Minimize Max Distance to Gas Station,加油站之间的最小距离,"On a horizontal number line, we have gas stations at positions stations[0], stations[1], ..., stations[N-1], where `N = stations.length`.
+
+Now, we add `K` more gas stations so that D, the maximum distance between adjacent gas stations, is minimized.
+
+Return the smallest possible value of D.",1,https://www.jiuzhang.com/solution/minimize-max-distance-to-gas-station,http://206.81.6.248:12306/leetcode/minimize-max-distance-to-gas-station/description
+702,Search in a Sorted Array of Unknown Size,-,-,0,-,http://206.81.6.248:12306/leetcode/search-in-a-sorted-array-of-unknown-size/description
+772,Basic Calculator III,-,-,0,-,http://206.81.6.248:12306/leetcode/basic-calculator-iii/description
+431,Encode N-ary Tree to Binary Tree,-,-,0,-,http://206.81.6.248:12306/leetcode/encode-n-ary-tree-to-binary-tree/description
+428,Serialize and Deserialize N-ary Tree,-,-,0,-,http://206.81.6.248:12306/leetcode/serialize-and-deserialize-n-ary-tree/description
+760,Find Anagram Mappings,找到映射序列,"Given two lists `A` and `B`, and `B` is an anagram of `A`. `B` is an anagram of `A` means `B` is made by randomizing the order of the elements in `A`.
+We want to find an _index mapping_ `P`, from `A` to `B`. `A` mapping `P[i] = j` means the `ith` element in `A` appears in `B` at index `j`.
+These lists `A` and `B` may contain duplicates. If there are multiple answers, output any of them.",1,https://www.jiuzhang.com/solution/find-anagram-mappings,http://206.81.6.248:12306/leetcode/find-anagram-mappings/description
+759,Employee Free Time,-,-,0,-,http://206.81.6.248:12306/leetcode/employee-free-time/description
+758,Bold Words in String,-,-,0,-,http://206.81.6.248:12306/leetcode/bold-words-in-string/description
+426,Convert Binary Search Tree to Sorted Doubly Linked List,,https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/,1,https://www.jiuzhang.com/solution/convert-binary-search-tree-to-sorted-doubly-linked-list,http://206.81.6.248:12306/leetcode/convert-binary-search-tree-to-sorted-doubly-linked-list/description
+755,Pour Water,-,-,0,-,http://206.81.6.248:12306/leetcode/pour-water/description
+751,IP to CIDR,-,-,0,-,http://206.81.6.248:12306/leetcode/ip-to-cidr/description
+750,Number Of Corner Rectangles,转角矩形个数,"Given a grid where each entry is only 0 or 1, find the number of corner rectangles.
+
+A corner rectangle is 4 distinct 1s on the grid that form an axis-aligned rectangle. Note that only the corners need to have the value 1. Also, all four 1s used must be distinct.",1,https://www.jiuzhang.com/solution/number-of-corner-rectangles,http://206.81.6.248:12306/leetcode/number-of-corner-rectangles/description
+742,Closest Leaf in a Binary Tree,二叉树中最近的叶子,"Given a binary tree **where every node has a unique value**, and a target key `k`, find the value of the nearest leaf node to target `k` in the tree.If there are multiple cases, return to the leftmost leaf node.
+
+Here, nearest to a leaf means the least number of edges travelled on the binary tree to reach any leaf of the tree. Also, a node is called a leaf if it has no children.",1,https://www.jiuzhang.com/solution/closest-leaf-in-a-binary-tree,http://206.81.6.248:12306/leetcode/closest-leaf-in-a-binary-tree/description
+737,Sentence Similarity II,相似的句子 II,"Given two sentences words1, words2 (each represented as an array of strings), and a list of similar word pairs pairs, determine if two sentences are similar.
+
+For example, words1 = [""great"", ""acting"", ""skills""] and words2 = [""fine"", ""drama"", ""talent""] are similar, if the similar word pairs are pairs = [[""great"", ""good""], [""fine"", ""good""], [""acting"",""drama""], [""skills"",""talent""]].
+
+Note that the similarity relation is transitive. For example, if ""great"" and ""good"" are similar, and ""fine"" and ""good"" are similar, then ""great"" and ""fine"" are similar.
+
+Similarity is also symmetric. For example, ""great"" and ""fine"" being similar is the same as ""fine"" and ""great"" being similar.
+
+Also, a word is always similar with itself. For example, the sentences words1 = [""great""], words2 = [""great""], pairs = [] are similar, even though there are no specified similar word pairs.
+
+Finally, sentences can only be similar if they have the same number of words. So a sentence like words1 = [""great""] can never be similar to words2 = [""doubleplus"",""good""].
+
+Note:
+
+The length of words1 and words2 will not exceed 1000.
+The length of pairs will not exceed 2000.
+The length of each pairs[i] will be 2.
+The length of each words[i] and pairs[i][j] will be in the range [1, 20].",1,https://www.jiuzhang.com/solution/sentence-similarity-ii,http://206.81.6.248:12306/leetcode/sentence-similarity-ii/description
+734,Sentence Similarity,相似的句子 II,"Given two sentences words1, words2 (each represented as an array of strings), and a list of similar word pairs pairs, determine if two sentences are similar.
+
+For example, words1 = [""great"", ""acting"", ""skills""] and words2 = [""fine"", ""drama"", ""talent""] are similar, if the similar word pairs are pairs = [[""great"", ""good""], [""fine"", ""good""], [""acting"",""drama""], [""skills"",""talent""]].
+
+Note that the similarity relation is transitive. For example, if ""great"" and ""good"" are similar, and ""fine"" and ""good"" are similar, then ""great"" and ""fine"" are similar.
+
+Similarity is also symmetric. For example, ""great"" and ""fine"" being similar is the same as ""fine"" and ""great"" being similar.
+
+Also, a word is always similar with itself. For example, the sentences words1 = [""great""], words2 = [""great""], pairs = [] are similar, even though there are no specified similar word pairs.
+
+Finally, sentences can only be similar if they have the same number of words. So a sentence like words1 = [""great""] can never be similar to words2 = [""doubleplus"",""good""].
+
+Note:
+
+The length of words1 and words2 will not exceed 1000.
+The length of pairs will not exceed 2000.
+The length of each pairs[i] will be 2.
+The length of each words[i] and pairs[i][j] will be in the range [1, 20].",1,https://www.jiuzhang.com/solution/sentence-similarity-ii,http://206.81.6.248:12306/leetcode/sentence-similarity/description
+734,Sentence Similarity,句子相似性,"Given two sentences `words1`, `words2` (each represented as an array of strings), and a list of similar word pairs `pairs`, determine if two sentences are similar.
+
+For example, `words1 = great acting skills` and `words2 = fine drama talent` are similar, if the similar word pairs are `pairs = [[""great"", ""fine""], [""acting"",""drama""], [""skills"",""talent""]]`.
+
+Note that the similarity relation is not transitive. For example, if ""great"" and ""fine"" are similar, and ""fine"" and ""good"" are similar, ""great"" and ""good"" are **not** necessarily similar.
+
+However, similarity is symmetric. For example, ""great"" and ""fine"" being similar is the same as ""fine"" and ""great"" being similar.
+
+Also, a word is always similar with itself. For example, the sentences `words1 = [""great""], words2 = [""great""], pairs = []` are similar, even though there are no specified similar word pairs.
+
+Finally, sentences can only be similar if they have the same number of words. So a sentence like `words1 = [""great""]` can never be similar to `words2 = [""doubleplus"",""good""]`.",1,https://www.jiuzhang.com/solution/sentence-similarity,http://206.81.6.248:12306/leetcode/sentence-similarity/description
+727,Minimum Window Subsequence,最小的窗口子序列,"Given strings `S` and `T`, find the minimum (contiguous) **substring** `W` of `S`, so that `T` is a **subsequence** of `W`.
+
+If there is no such window in `S` that covers all characters in `T`, return the empty string `""""`. If there are multiple such minimum-length windows, return the one with the left-most starting index.",1,https://www.jiuzhang.com/solution/minimum-window-subsequence,http://206.81.6.248:12306/leetcode/minimum-window-subsequence/description
+723,Candy Crush,-,-,0,-,http://206.81.6.248:12306/leetcode/candy-crush/description
+716,Max Stack,Max Stack,"Design a max stack that supports push, pop, top, peekMax and popMax.
+
+* push(x) -- Push element x onto stack.
+* pop() -- Remove the element on top of the stack and return it.
+* top() -- Get the element on the top.
+* peekMax() -- Retrieve the maximum element in the stack.
+* popMax() -- Retrieve the maximum element in the stack, and remove it. If you find more than one maximum elements, only remove the top-most one.
+
+Example 1:
+```
+MaxStack stack = new MaxStack();
+stack.push(5); 
+stack.push(1);
+stack.push(5);
+stack.top(); -> 5
+stack.popMax(); -> 5
+stack.top(); -> 1
+stack.peekMax(); -> 5
+stack.pop(); -> 1
+stack.top(); -> 5
+```
+Note:
+-1e7 <= x <= 1e7
+Number of operations won't exceed 10000.
+The last four operations won't be called when stack is empty.",1,https://www.jiuzhang.com/solution/max-stack,http://206.81.6.248:12306/leetcode/max-stack/description
+711,Number of Distinct Islands II,不同岛屿的数量II,"Given a non-empty 2D array `grid` of `0`'s and `1`'s, an **island** is a group of `1`'s (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+Count the number of **distinct** islands. An island is considered to be the same as another if they have the same shape, or have the same shape after **rotation** (90, 180, or 270 degrees only) or **reflection** (left/right direction or up/down direction).",1,https://www.jiuzhang.com/solution/number-of-distinct-islands-ii,http://206.81.6.248:12306/leetcode/number-of-distinct-islands-ii/description
+694,Number of Distinct Islands,不同岛屿的数量II,"Given a non-empty 2D array `grid` of `0`'s and `1`'s, an **island** is a group of `1`'s (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+Count the number of **distinct** islands. An island is considered to be the same as another if they have the same shape, or have the same shape after **rotation** (90, 180, or 270 degrees only) or **reflection** (left/right direction or up/down direction).",1,https://www.jiuzhang.com/solution/number-of-distinct-islands-ii,http://206.81.6.248:12306/leetcode/number-of-distinct-islands/description
+694,Number of Distinct Islands,不同岛屿的个数,"Given a non-empty 2D array `grid` of 0's and 1's, an **island** is a group of `1`'s (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+Count the number of **distinct** islands. An island is considered to be the same as another if and only if one island can be translated (and not rotated or reflected) to equal the other.
+
+Notice that:
+```
+11
+1
+```
+and
+```
+ 1
+11
+```
+are considered different island shapes, because we do not consider reflection / rotation.",1,https://www.jiuzhang.com/solution/number-of-distinct-islands,http://206.81.6.248:12306/leetcode/number-of-distinct-islands/description
+683,K Empty Slots,K个空的位置,"There is a garden with `N` slots. In each slot, there is a flower. The `N` flowers will bloom one by one in `N` days. In each day, there will be `exactly` one flower blooming and it will be in the status of blooming since then.
+
+Given an array `flowers` consists of number from `1` to `N`. Each number in the array represents the place where the flower will open in that day.
+
+For example, `flowers[i] = x` means that the unique flower that blooms at day `i` will be at position `x`, where `i` and `x` will be in the range from `1` to `N`.
+
+Also given an integer `k`, you need to output in which day there exists two flowers in the status of blooming, and also the number of flowers between them is `k` and these flowers are not blooming.
+
+If there isn't such day, output -1.",1,https://www.jiuzhang.com/solution/k-empty-slots,http://206.81.6.248:12306/leetcode/k-empty-slots/description
+681,Next Closest Time,下一个最近的时间,"Given a time represented in the format ""HH:MM"", form the next closest time by reusing the current digits. There is no limit on how many times a digit can be reused.
+
+You may assume the given input string is always valid. For example, ""01:34"", ""12:09"" are all valid. ""1:34"", ""12:9"" are all invalid.",1,https://www.jiuzhang.com/solution/next-closest-time,http://206.81.6.248:12306/leetcode/next-closest-time/description
+666,Path Sum IV,二叉树的路径和IV,"If the depth of a tree is smaller than `5`, then this tree can be represented by a list of three-digits integers.
+
+For each integer in this list:
+1. The hundreds digit represents the depth `D` of this node, `1 <= D <= 4`.
+2. The tens digit represents the position `P` of this node in the level it belongs to, `1 <= P <= 8`. The position is the same as that in a full binary tree.
+3. The units digit represents the value `V` of this node, `0 <= V <= 9`.
+Given a list of `ascending` three-digits integers representing a binary with the depth smaller than 5. You need to return the sum of all paths from the root towards the leaves.",1,https://www.jiuzhang.com/solution/binary-tree-path-sum-iv,http://206.81.6.248:12306/leetcode/path-sum-iv/description
+663,Equal Tree Partition,相等树划分,"Given a binary tree with `n` nodes, your task is to check if it's possible to partition the tree to two trees which have the equal sum of values after removing **exactly** one edge on the original tree.",1,https://www.jiuzhang.com/solution/equal-tree-partition,http://206.81.6.248:12306/leetcode/equal-tree-partition/description
+660,Remove 9,-,-,0,-,http://206.81.6.248:12306/leetcode/remove-9/description
+656,Coin Path,-,-,0,-,http://206.81.6.248:12306/leetcode/coin-path/description
+651,4 Keys Keyboard,四键键盘,"Imagine you have a special keyboard with the following keys:
+
+`Key 1`: (A): Print one 'A' on screen.
+
+`Key 2`: (Ctrl-A): Select the whole screen.
+
+`Key 3`: (Ctrl-C): Copy selection to buffer.
+
+`Key 4`: (Ctrl-V): Print buffer on screen appending it after what has already been printed.
+
+Now, you can only press the keyboard for **N** times (with the above four keys), find out the maximum numbers of 'A' you can print on screen.",1,https://www.jiuzhang.com/solution/4-keys-keyboard,http://206.81.6.248:12306/leetcode/4-keys-keyboard/description
+644,Maximum Average Subarray II,最大平均值子数组 II,"Given an array with positive and negative numbers, find the `maximum average subarray` which length should be greater or equal to given length `k`.",1,https://www.jiuzhang.com/solution/maximum-average-subarray-ii,http://206.81.6.248:12306/leetcode/maximum-average-subarray-ii/description
+642,Design Search Autocomplete System,-,-,0,-,http://206.81.6.248:12306/leetcode/design-search-autocomplete-system/description
+635,Design Log Storage System,-,-,0,-,http://206.81.6.248:12306/leetcode/design-log-storage-system/description
+634,Find the Derangement of An Array,-,-,0,-,http://206.81.6.248:12306/leetcode/find-the-derangement-of-an-array/description
+631,Design Excel Sum Formula,-,-,0,-,http://206.81.6.248:12306/leetcode/design-excel-sum-formula/description
+625,Minimum Factorization,最小分解,"Given a positive integer `a`, find the smallest positive integer `b` whose multiplication of each digit equals to `a`.
+
+If there is no answer or the answer is not fit in 32-bit signed integer, then return 0.",1,https://www.jiuzhang.com/solution/minimum-factorization,http://206.81.6.248:12306/leetcode/minimum-factorization/description
+624,Maximum Distance in Arrays,数组中最大的差值,"Given `m` arrays, and each array is sorted in ascending order. Now you can pick up two integers from two different arrays (each array picks one) and calculate the distance. We define the difference between two integers `a` and `b` to be their absolute difference `|a-b|`. Your task is to find the maximum difference.",1,https://www.jiuzhang.com/solution/maximum-distance-in-arrays,http://206.81.6.248:12306/leetcode/maximum-distance-in-arrays/description
+619,Biggest Single Number,-,-,0,-,http://206.81.6.248:12306/leetcode/biggest-single-number/description
+618,Students Report By Geography,-,-,0,-,http://206.81.6.248:12306/leetcode/students-report-by-geography/description
+616,Add Bold Tag in String,-,-,0,-,http://206.81.6.248:12306/leetcode/add-bold-tag-in-string/description
+615,Average Salary: Departments VS Company,-,-,0,-,http://206.81.6.248:12306/leetcode/average-salary:-departments-vs-company/description
+614,Second Degree Follower,-,-,0,-,http://206.81.6.248:12306/leetcode/second-degree-follower/description
+613,Shortest Distance in a Line,-,-,0,-,http://206.81.6.248:12306/leetcode/shortest-distance-in-a-line/description
+612,Shortest Distance in a Plane,-,-,0,-,http://206.81.6.248:12306/leetcode/shortest-distance-in-a-plane/description
+610,Triangle Judgement,-,-,0,-,http://206.81.6.248:12306/leetcode/triangle-judgement/description
+608,Tree Node,二叉树填充next节点,"Given complete binary tree, and the tree has only two leaf nodes or no leaf nodes.
+Besides the left or right child pointer, a node also has a next pointer, which points to the right side node of the same level. for example, the next of 2 is 3.
+
+Please complete a program fill the next node of the given tree.
+
+       1
+    /     \
+   2       3
+  /  \    / \
+ 4   5   6    7
+ 
+  2, please use constant space complexity.",1,https://www.jiuzhang.com/solution/binary-tree-with-next-node,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,,http://lintcode.com/zh-cn/problem/insert-node-in-a-binary-search-tree/,1,https://www.jiuzhang.com/solution/insert-node-in-binary-search-tree,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,统计完全树节点数,"Given a **complete** binary tree, count the number of nodes.",1,https://www.jiuzhang.com/solution/count-complete-tree-nodes,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,二叉树第K层节点数量,Return the number of nodes in the `kth` layer(The layer number starts from `1` and the root node is layer 1).,1,https://www.jiuzhang.com/solution/binary-tree-kth-floor-node,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,二叉树中次小的结点,"Given a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree has exactly `two` or `zero` sub-node. If the node has two sub-nodes, then this node's value is not bigger than  its two sub-nodes.
+
+Given such a binary tree, you need to output the **second minimum** value in the set made of all the nodes' value in the whole tree.
+
+If no such second minimum value exists, output -1 instead.",1,https://www.jiuzhang.com/solution/second-minimum-node-in-a-binary-tree,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,二叉树的最大节点,"Find the maximum node in a binary tree, return the node.",1,https://www.jiuzhang.com/solution/binary-tree-maximum-node,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,删除二叉查找树的节点,"Given a root of Binary Search Tree with unique value for each node.  Remove the node with given value. If there is no such a node with given value in the binary search tree, do nothing. You should keep the tree still a binary search tree after removal.",1,https://www.jiuzhang.com/solution/remove-node-in-binary-search-tree,http://206.81.6.248:12306/leetcode/tree-node/description
+608,Tree Node,在二叉查找树中插入节点,"Given a binary search tree  and a new tree node, insert the node into the tree. You should keep the tree still be a valid binary search tree.",1,https://www.jiuzhang.com/solution/insert-node-in-a-binary-search-tree,http://206.81.6.248:12306/leetcode/tree-node/description
+607,Sales Person,-,-,0,-,http://206.81.6.248:12306/leetcode/sales-person/description
+604,Design Compressed String Iterator,-,-,0,-,http://206.81.6.248:12306/leetcode/design-compressed-string-iterator/description
+603,Consecutive Available Seats,-,-,0,-,http://206.81.6.248:12306/leetcode/consecutive-available-seats/description
+602,Friend Requests II: Who Has the Most Friends,-,-,0,-,http://206.81.6.248:12306/leetcode/friend-requests-ii:-who-has-the-most-friends/description
+597,Friend Requests I: Overall Acceptance Rate,-,-,0,-,http://206.81.6.248:12306/leetcode/friend-requests-i:-overall-acceptance-rate/description
+588,Design In-Memory File System,-,-,0,-,http://206.81.6.248:12306/leetcode/design-in-memory-file-system/description
+586,Customer Placing the Largest Number of Orders,-,-,0,-,http://206.81.6.248:12306/leetcode/customer-placing-the-largest-number-of-orders/description
+585,Investments in 2016,-,-,0,-,http://206.81.6.248:12306/leetcode/investments-in-2016/description
+584,Find Customer Referee,-,-,0,-,http://206.81.6.248:12306/leetcode/find-customer-referee/description
+582,Kill Process,,"Given n processes, each process has a unique PID (process id) and its PPID (parent process id).
+
+Each process only has one parent process, but may have one or more children processes. This is just like a tree structure. Only one process has PPID that is 0, which means this process has no parent process. All the PIDs will be distinct positive integers.
+
+We use two list of integers to represent a list of processes, where the first list contains PID for each process and the second list contains the corresponding PPID.
+
+Now given the two lists, and a PID representing a process you want to kill, return a list of PIDs of processes that will be killed in the end. You should assume that when a process is killed, all its children processes will be killed. No order is required for the final answer.
+
+Example 1:
+Input: 
+pid =  [1, 3, 10, 5]
+ppid = [3, 0, 5, 3]
+kill = 5
+Output: [5,10]
+Explanation: 
+           3
+         /   \
+        1     5
+             /
+            10
+Kill 5 will also kill 10.
+Note:
+The given kill id is guaranteed to be one of the given PIDs.
+n >= 1.",1,https://www.jiuzhang.com/solution/582-kill-process,http://206.81.6.248:12306/leetcode/kill-process/description
+580,Count Student Number in Departments,-,-,0,-,http://206.81.6.248:12306/leetcode/count-student-number-in-departments/description
+579,Find Cumulative Salary of an Employee,-,-,0,-,http://206.81.6.248:12306/leetcode/find-cumulative-salary-of-an-employee/description
+578,Get Highest Answer Rate Question,-,-,0,-,http://206.81.6.248:12306/leetcode/get-highest-answer-rate-question/description
+577,Employee Bonus,-,-,0,-,http://206.81.6.248:12306/leetcode/employee-bonus/description
+574,Winning Candidate,-,-,0,-,http://206.81.6.248:12306/leetcode/winning-candidate/description
+573,Squirrel Simulation,-,-,0,-,http://206.81.6.248:12306/leetcode/squirrel-simulation/description
+571,Find Median Given Frequency of Numbers,-,-,0,-,http://206.81.6.248:12306/leetcode/find-median-given-frequency-of-numbers/description
+570,Managers with at Least 5 Direct Reports,-,-,0,-,http://206.81.6.248:12306/leetcode/managers-with-at-least-5-direct-reports/description
+569,Median Employee Salary,-,-,0,-,http://206.81.6.248:12306/leetcode/median-employee-salary/description
+568,Maximum Vacation Days,最大的假期天数,"LintCode wants to give one of its best employees the option to travel among `N` cities to collect algorithm problems. But all work and no play makes Jack a dull boy, you could take vacations in some particular cities and weeks. Your job is to schedule the traveling to maximize the number of vacation days you could take, but there are certain rules and restrictions you need to follow.
+
+**Rules and restrictions:**
+1. You can only travel among `N` cities, represented by indexes from 0 to N-1. Initially, you are in the city indexed 0 on **Monday**.
+2. The cities are connected by flights. The flights are represented as a `N*N` matrix (not necessary symmetrical), called **flights** representing the airline status from the city i to the city j. If there is no flight from the city i to the city j, **flights[i][j] = 0**; Otherwise, **flights[i][j] = 1**. Also, **flights[i][i] = 0** for all i.
+3. You totally have `K` weeks (**each week has 7 days**) to travel. You can only take flights at most once **per day** and can only take flights on each week's **Monday** morning. Since flight time is so short, we don't consider the impact of flight time.
+4. For each city, you can only have restricted vacation days in different weeks, given an `N*K` matrix called **days** representing this relationship. For the value of `days[i][j]`, it represents the maximum days you could take vacation in the city `i` in the week `j`.
+You're given the **flights** matrix and **days** matrix, and you need to output the maximum vacation days you could take during `K` weeks.",1,https://www.jiuzhang.com/solution/maximum-vacation-days,http://206.81.6.248:12306/leetcode/maximum-vacation-days/description
+562,Longest Line of Consecutive One in Matrix,矩阵中连续的最长的直线。,"Given a 01 matrix `m`, find the longest line of consecutive one in the matrix. The line could be horizontal, vertical, diagonal or anti-diagonal.",1,https://www.jiuzhang.com/solution/longest-line-of-consecutive-one-in-matrix,http://206.81.6.248:12306/leetcode/longest-line-of-consecutive-one-in-matrix/description
+555,Split Concatenated Strings,-,-,0,-,http://206.81.6.248:12306/leetcode/split-concatenated-strings/description
+549,Binary Tree Longest Consecutive Sequence II,二叉树的最长连续子序列 II,"Given a binary tree, find the length of the longest consecutive sequence path.
+The path could be start and end at any node in the tree",0,-,http://206.81.6.248:12306/leetcode/binary-tree-longest-consecutive-sequence-ii/description
+549,Binary Tree Longest Consecutive Sequence II,二叉树的最长连续子序列III,"It's follow up problem for [`Binary Tree Longest Consecutive Sequence II`](http://www.lintcode.com/en/problem/binary-tree-longest-consecutive-sequence-ii/ ""Binary Tree Longest Consecutive Sequence II"")
+
+Given a `k-ary tree`, find the length of the longest consecutive sequence path.
+The path could be start and end at any node in the tree",0,-,http://206.81.6.248:12306/leetcode/binary-tree-longest-consecutive-sequence-ii/description
+548,Split Array with Equal Sum,同和分割数组,"Given an array with n integers, you need to find if there are triplets `(i, j, k)` which satisfies following conditions:
+
+1. `0 < i, i + 1 < j, j + 1 < k < n - 1`
+2. Sum of subarrays (0, i - 1), (i + 1, j - 1), (j + 1, k - 1) and (k + 1, n - 1) should be equal.
+where we define that subarray (L, R) represents a slice of the original array starting from the element indexed L to the element indexed R.",1,https://www.jiuzhang.com/solution/split-array-with-equal-sum,http://206.81.6.248:12306/leetcode/split-array-with-equal-sum/description
+545,Boundary of Binary Tree,二叉树边界,"Given a binary tree, return the values of its boundary in **anti-clockwise** direction starting from root. Boundary includes left boundary, leaves, and right boundary in order without duplicate nodes.
+
+**Left boundary** is defined as the path from root to the **left-most** node. **Right boundary** is defined as the path from root to the **right-most** node. If the root doesn't have left subtree or right subtree, then the root itself is left boundary or right boundary. Note this definition only applies to the input binary tree, and not applies to any subtrees.
+
+The **left-most** node is defined as a **leaf** node you could reach when you always firstly travel to the left subtree if exists. If not, travel to the right subtree. Repeat until you reach a leaf node.
+
+The **right-most** node is also defined by the same way with left and right exchanged.",1,https://www.jiuzhang.com/solution/boundary-of-binary-tree,http://206.81.6.248:12306/leetcode/boundary-of-binary-tree/description
+544,Output Contest Matches,输出赛程表,"During the NBA playoffs, we always arrange the rather strong team to play with the rather weak team, like make the rank 1 team play with the rank nth team, which is a good strategy to make the contest more interesting. Now, you're given `n` teams, you need to output their **final** contest matches in the form of a string.
+
+The `n` teams are given in the form of positive integers from 1 to n, which represents their initial rank. (Rank 1 is the strongest team and Rank n is the weakest team.) We'll use parentheses('(', ')') and commas(',') to represent the contest team pairing - parentheses('(' , ')') for pairing and commas(',') for partition. During the pairing process in each round, you always need to follow the strategy of making the rather strong one pair with the rather weak one.",1,https://www.jiuzhang.com/solution/output-contest-matches,http://206.81.6.248:12306/leetcode/output-contest-matches/description
+536,Construct Binary Tree from String,从二叉树构建字符串,"You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.
+
+The null node needs to be represented by empty parenthesis pair ""()"". And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree.",1,https://www.jiuzhang.com/solution/construct-string-from-binary-tree,http://206.81.6.248:12306/leetcode/construct-binary-tree-from-string/description
+536,Construct Binary Tree from String,字符串构造二叉树,"You need to construct a binary tree from a string consisting of parenthesis and integers.
+
+The whole input represents a binary tree. It contains an integer followed by zero, one or two pairs of parenthesis. The integer represents the root's value and a pair of parenthesis contains a child binary tree with the same structure.
+
+You always start to construct the **left** child node of the parent first if it exists.",1,https://www.jiuzhang.com/solution/construct-binary-tree-from-string,http://206.81.6.248:12306/leetcode/construct-binary-tree-from-string/description
+533,Lonely Pixel II,-,-,0,-,http://206.81.6.248:12306/leetcode/lonely-pixel-ii/description
+531,Lonely Pixel I,-,-,0,-,http://206.81.6.248:12306/leetcode/lonely-pixel-i/description
+527,Word Abbreviation,,"An abbreviation of a word follows the form .
+Assume you have a dictionary and given a word, find whether its abbreviation is unique in the dictionary. A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.",1,https://www.jiuzhang.com/solution/unique-word-abbreviation,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+527,Word Abbreviation,Word Abbreviation,"给出一组 n 个不同的非空字符串，您需要按以下规则为每个单词生成 最小 的缩写。
+
+从第一个字符开始，然后加上中间缩写掉的字符的长度，后跟最后一个字符。
+如果有冲突，就是多个单词共享相同的缩写，使用较长的前缀，而不是仅使用第一个字符，直到使单词的缩写的映射变为唯一。 换句话说，最终得到的缩写不能映射到多个原始单词。
+如果缩写不会使单词更短，则不进行缩写，保持原样。",1,https://www.jiuzhang.com/solution/word-abbreviation,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+527,Word Abbreviation,,,0,-,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+527,Word Abbreviation,检查缩写字,"Given a **non-empty** string `word` and an abbreviation `abbr`, return whether the string matches with the given abbreviation.
+
+A string such as `""word""` contains only the following valid abbreviations:
+```
+[""word"", ""1ord"", ""w1rd"", ""wo1d"", ""wor1"", ""2rd"", ""w2d"", ""wo2"", ""1o1d"", ""1or1"", ""w1r1"", ""1o2"", ""2r1"", ""3d"", ""w3"", ""4""]
+```",1,https://www.jiuzhang.com/solution/valid-word-abbreviation,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+527,Word Abbreviation,单词缩写,"Given an array of n distinct non-empty strings, you need to generate **minimal** possible abbreviations for every word following rules below.
+
+1. Begin with the first character and then the number of characters abbreviated, which followed by the last character.
+2. If there are any conflict, that is more than one words share the same abbreviation, a longer prefix is used instead of only the first character until making the map from word to abbreviation become unique. In other words, a final abbreviation cannot map to more than one original words.
+3. If the abbreviation doesn't make the word shorter, then keep it as original.
+",0,-,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+527,Word Abbreviation,单词缩写集,"An abbreviation of a word follows the form <first letter><number><last letter>. Below are some examples of word abbreviations:
+```
+a) it                      --> it    (no abbreviation)
+
+     1
+b) d|o|g                   --> d1g
+
+              1    1  1
+     1---5----0----5--8
+c) i|nternationalizatio|n  --> i18n
+
+              1
+     1---5----0
+d) l|ocalizatio|n          --> l10n
+```
+Assume you have a dictionary and given a word, find whether its abbreviation is unique in the dictionary. A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.",0,-,http://206.81.6.248:12306/leetcode/word-abbreviation/description
+510,Inorder Successor in BST II,-,-,0,-,http://206.81.6.248:12306/leetcode/inorder-successor-in-bst-ii/description
+505,The Maze II,,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
+
+Given the ball's start position, the destination and the maze, find the shortest distance for the ball to stop at the destination. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the destination (included). If the ball cannot stop at the destination, return -1.
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/788-the-maze-ii,http://206.81.6.248:12306/leetcode/the-maze-ii/description
+505,The Maze II,,"在迷宫中有一个球，里面有空的空间和墙壁。球可以通过滚up (u)、down (d)、left (l)或右right (r)来穿过空的空间，但它不会停止滚动直到撞到墙上。当球停止时，它可以选择下一个方向。在这个迷宫里还有一个洞。如果球滚到洞里，球就会掉进洞里。
+给定球的位置、洞的位置和迷宫，找出球如何通过移动最短距离落入洞内。距离是由球从起始位置(被排除)到洞(包括)所走过的空空间的数量来定义的。用“u”、“d”、“l”和“r”来输出移动的方向。由于可能有几种不同的最短路径，所以你应该输出字母顺序中（移动顺序中）最短的方法。如果球打不进洞，输出“impossible”。
+迷宫由二维数组表示。1表示墙和0表示空的空间。你可以假设迷宫的边界都是墙。球和孔坐标用行和列的索引表示。",1,https://www.jiuzhang.com/solution/789-the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze-ii/description
+505,The Maze II,迷宫II,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up`, `down`, `left` or `right`, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
+
+Given the ball's start position, the destination and the maze, find the shortest distance for the ball to stop at the destination. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the destination (included). If the ball cannot stop at the destination, return -1.
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze-ii,http://206.81.6.248:12306/leetcode/the-maze-ii/description
+505,The Maze II,迷宫III,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up (u)`, `down (d)`, `left (l)` or `right (r)`, `but it won't stop rolling until hitting a wall`. When the ball stops, it could choose the next direction. There is also a hole in this maze. The ball will drop into the hole if it rolls on to the hole.
+
+Given the ball position, the hole position and the maze, find out how the ball could drop into the hole by moving the `shortest distance`. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the hole (included). `Output the moving directions by using 'u', 'd', 'l' and 'r'`. Since there could be several different shortest ways, you should output the lexicographically smallest way. If the ball cannot reach the hole, output ""impossible"".
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The ball and the hole coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze-ii/description
+499,The Maze III,,"在迷宫中有一个球，里面有空的空间和墙壁。球可以通过滚up (u)、down (d)、left (l)或右right (r)来穿过空的空间，但它不会停止滚动直到撞到墙上。当球停止时，它可以选择下一个方向。在这个迷宫里还有一个洞。如果球滚到洞里，球就会掉进洞里。
+给定球的位置、洞的位置和迷宫，找出球如何通过移动最短距离落入洞内。距离是由球从起始位置(被排除)到洞(包括)所走过的空空间的数量来定义的。用“u”、“d”、“l”和“r”来输出移动的方向。由于可能有几种不同的最短路径，所以你应该输出字母顺序中（移动顺序中）最短的方法。如果球打不进洞，输出“impossible”。
+迷宫由二维数组表示。1表示墙和0表示空的空间。你可以假设迷宫的边界都是墙。球和孔坐标用行和列的索引表示。",1,https://www.jiuzhang.com/solution/789-the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze-iii/description
+499,The Maze III,迷宫III,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up (u)`, `down (d)`, `left (l)` or `right (r)`, `but it won't stop rolling until hitting a wall`. When the ball stops, it could choose the next direction. There is also a hole in this maze. The ball will drop into the hole if it rolls on to the hole.
+
+Given the ball position, the hole position and the maze, find out how the ball could drop into the hole by moving the `shortest distance`. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the hole (included). `Output the moving directions by using 'u', 'd', 'l' and 'r'`. Since there could be several different shortest ways, you should output the lexicographically smallest way. If the ball cannot reach the hole, output ""impossible"".
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The ball and the hole coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze-iii/description
+490,The Maze,,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
+
+Given the ball's start position, the destination and the maze, find the shortest distance for the ball to stop at the destination. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the destination (included). If the ball cannot stop at the destination, return -1.
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/788-the-maze-ii,http://206.81.6.248:12306/leetcode/the-maze/description
+490,The Maze,,"在迷宫中有一个球，里面有空的空间和墙壁。球可以通过滚up (u)、down (d)、left (l)或右right (r)来穿过空的空间，但它不会停止滚动直到撞到墙上。当球停止时，它可以选择下一个方向。在这个迷宫里还有一个洞。如果球滚到洞里，球就会掉进洞里。
+给定球的位置、洞的位置和迷宫，找出球如何通过移动最短距离落入洞内。距离是由球从起始位置(被排除)到洞(包括)所走过的空空间的数量来定义的。用“u”、“d”、“l”和“r”来输出移动的方向。由于可能有几种不同的最短路径，所以你应该输出字母顺序中（移动顺序中）最短的方法。如果球打不进洞，输出“impossible”。
+迷宫由二维数组表示。1表示墙和0表示空的空间。你可以假设迷宫的边界都是墙。球和孔坐标用行和列的索引表示。",1,https://www.jiuzhang.com/solution/789-the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze/description
+490,The Maze,迷宫II,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up`, `down`, `left` or `right`, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
+
+Given the ball's start position, the destination and the maze, find the shortest distance for the ball to stop at the destination. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the destination (included). If the ball cannot stop at the destination, return -1.
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze-ii,http://206.81.6.248:12306/leetcode/the-maze/description
+490,The Maze,迷宫III,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up (u)`, `down (d)`, `left (l)` or `right (r)`, `but it won't stop rolling until hitting a wall`. When the ball stops, it could choose the next direction. There is also a hole in this maze. The ball will drop into the hole if it rolls on to the hole.
+
+Given the ball position, the hole position and the maze, find out how the ball could drop into the hole by moving the `shortest distance`. The distance is defined by the number of empty spaces traveled by the ball from the start position (excluded) to the hole (included). `Output the moving directions by using 'u', 'd', 'l' and 'r'`. Since there could be several different shortest ways, you should output the lexicographically smallest way. If the ball cannot reach the hole, output ""impossible"".
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The ball and the hole coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze-iii,http://206.81.6.248:12306/leetcode/the-maze/description
+490,The Maze,迷宫,"There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling `up`, `down`, `left` or `right`, `but it won't stop rolling until hitting a wall`. When the ball stops, it could choose the next direction.
+
+Given the ball's start position, the destination and the maze, determine whether the ball could stop at the destination.
+
+The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.",1,https://www.jiuzhang.com/solution/the-maze,http://206.81.6.248:12306/leetcode/the-maze/description
+487,Max Consecutive Ones II,最长连续的1 II,"Given a binary array, find the maximum number of consecutive 1s in this array if you can flip at most one 0.",1,https://www.jiuzhang.com/solution/max-consecutive-ones-ii,http://206.81.6.248:12306/leetcode/max-consecutive-ones-ii/description
+484,Find Permutation,-,-,0,-,http://206.81.6.248:12306/leetcode/find-permutation/description
+471,Encode String with Shortest Length,-,-,0,-,http://206.81.6.248:12306/leetcode/encode-string-with-shortest-length/description
+469,Convex Polygon,凸多边形,"Given a list of points that form a polygon when joined sequentially, find if this polygon is convex ([Convex polygon definition](https://en.wikipedia.org/wiki/Convex_polygon ""Convex polygon definition"")).
+
+",1,https://www.jiuzhang.com/solution/convex-polygon,http://206.81.6.248:12306/leetcode/convex-polygon/description
+465,Optimal Account Balancing,最优账户结余,"Given a directed graph where each edge is represented by a `tuple`, such as `[u, v, w] `represents an edge with a weight `w` from `u` to `v`.
+You need to calculate at least the need to add the number of edges to ensure that each point of the weight are balancing. That is, the sum of weight of the edge pointing to this point is equal to the sum of weight of the edge of the point that points to the other point.",0,-,http://206.81.6.248:12306/leetcode/optimal-account-balancing/description
+444,Sequence Reconstruction,序列重构,"Check whether the original sequence `org` can be uniquely reconstructed from the sequences in `seqs`. The org sequence is a permutation of the integers from 1 to n, with 1 ≤ n ≤ 10^4. Reconstruction means building a shortest common supersequence of the sequences in `seqs` (i.e., a shortest sequence so that all sequences in `seqs` are subsequences of it). Determine whether there is only one sequence that can be reconstructed from `seqs` and it is the `org` sequence.",1,https://www.jiuzhang.com/solution/sequence-reconstruction,http://206.81.6.248:12306/leetcode/sequence-reconstruction/description
+439,Ternary Expression Parser,三元式解析器,"Given a string representing arbitrarily nested ternary expressions, calculate the result of the expression. You can always assume that the given expression is valid and only consists of digits `0-9`, `?`, `:`, `T` and `F` (`T` and `F` represent True and False respectively).",1,https://www.jiuzhang.com/solution/ternary-expression-parser,http://206.81.6.248:12306/leetcode/ternary-expression-parser/description
+425,Word Squares,单词矩阵,"Given a set of words **without duplicates**, find all [`word squares`](https://en.wikipedia.org/wiki/Word_square ""Word square"") you can build from them.
+
+A sequence of words forms a valid word square if the kth row and column read the exact same string, where 0 ≤ k < max(numRows, numColumns).
+
+For example, the word sequence `[""ball"",""area"",""lead"",""lady""]` forms a word square because each word reads the same both horizontally and vertically.
+```
+b a l l
+a r e a
+l e a d
+l a d y
+```",1,https://www.jiuzhang.com/solution/word-squares,http://206.81.6.248:12306/leetcode/word-squares/description
+422,Valid Word Square,有效单词词广场,"Given a sequence of words, check whether it forms a valid word square.
+
+A sequence of words forms a valid word square if the k^th row and column read the exact same string, where `0 ≤ k < max(numRows, numColumns)`.",1,https://www.jiuzhang.com/solution/valid-word-square,http://206.81.6.248:12306/leetcode/valid-word-square/description
+418,Sentence Screen Fitting,屏幕句子适配,"Given a `rows x cols` screen and a sentence represented by a list of **non-empty** words, find **how many times** the given sentence can be fitted on the screen.",1,https://www.jiuzhang.com/solution/sentence-screen-fitting,http://206.81.6.248:12306/leetcode/sentence-screen-fitting/description
+411,Minimum Unique Word Abbreviation,-,-,0,-,http://206.81.6.248:12306/leetcode/minimum-unique-word-abbreviation/description
+408,Valid Word Abbreviation,检查缩写字,"Given a **non-empty** string `word` and an abbreviation `abbr`, return whether the string matches with the given abbreviation.
+
+A string such as `""word""` contains only the following valid abbreviations:
+```
+[""word"", ""1ord"", ""w1rd"", ""wo1d"", ""wor1"", ""2rd"", ""w2d"", ""wo2"", ""1o1d"", ""1or1"", ""w1r1"", ""1o2"", ""2r1"", ""3d"", ""w3"", ""4""]
+```",1,https://www.jiuzhang.com/solution/valid-word-abbreviation,http://206.81.6.248:12306/leetcode/valid-word-abbreviation/description
+379,Design Phone Directory,-,-,0,-,http://206.81.6.248:12306/leetcode/design-phone-directory/description
+370,Range Addition,范围加法,"Assume you have an array of length `n` initialized with all `0`'s and are given `k` update operations.
+
+Each operation is represented as a triplet: `[startIndex, endIndex, inc]` which increments each element of subarray `A[startIndex ... endIndex]` (startIndex and endIndex inclusive) with `inc`.
+
+Return the modified array after all `k` operations were executed.",1,https://www.jiuzhang.com/solution/range-addition,http://206.81.6.248:12306/leetcode/range-addition/description
+370,Range Addition,范围加法之二,"Given an m * n matrix M initialized with all 0's and several update operations.
+
+Operations are represented by a 2D array, and each operation is represented by an array with two positive integers a and b, which means M[i][j] should be added by one for all 0 <= i < a and 0 <= j < b.
+
+You need to count and return the number of maximum integers in the matrix after performing all the operations.",1,https://www.jiuzhang.com/solution/range-addition-ii,http://206.81.6.248:12306/leetcode/range-addition/description
+369,Plus One Linked List,加一链表,"Given a non-negative integer represented as **non-empty** a singly linked list of digits, plus one to the integer.
+
+You may assume the integer do not contain any leading zero, except the number 0 itself.
+
+The digits are stored such that the most significant digit is at the head of the list.",1,https://www.jiuzhang.com/solution/plus-one-linked-list,http://206.81.6.248:12306/leetcode/plus-one-linked-list/description
+366,Find Leaves of Binary Tree,Find Leaves of Binary Tree,给定一个二叉树，像这样收集树节点：收集并移除所有叶子，重复，直到树为空,1,https://www.jiuzhang.com/solution/find-leaves-of-binary-tree,http://206.81.6.248:12306/leetcode/find-leaves-of-binary-tree/description
+364,Nested List Weight Sum II,,"Given a nested list of integers, return the sum of all integers in the list weighted by their depth.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+Different from the previous question where weight is increasing from root to leaf, now the weight is defined from bottom up. i.e., the leaf level integers have weight 1, and the root level integers have the largest weight.
+
+Example 1:
+Given the list [[1,1],2,[1,1]], return 8. (four 1's at depth 1, one 2 at depth 2)
+
+Example 2:
+Given the list [1,[4,[6]]], return 17. (one 1 at depth 3, one 4 at depth 2, and one 6 at depth 1; 1*3 + 4*2 + 6*1 = 17)",1,https://www.jiuzhang.com/solution/nested-list-weight-sum-ii,http://206.81.6.248:12306/leetcode/nested-list-weight-sum-ii/description
+362,Design Hit Counter,-,-,0,-,http://206.81.6.248:12306/leetcode/design-hit-counter/description
+361,Bomb Enemy,炸弹袭击,"Given a 2D grid, each cell is either a wall `'W'`, an enemy `'E'` or empty `'0'` (the number zero), return the maximum enemies you can kill using one bomb.
+The bomb kills all the enemies in the same row and column from the planted point until it hits the wall since the wall is too strong to be destroyed.",1,https://www.jiuzhang.com/solution/bomb-enemy,http://206.81.6.248:12306/leetcode/bomb-enemy/description
+360,Sort Transformed Array,对数组变换排序,"Given a **sorted** array of integers nums and integer values a, b and c. Apply a quadratic function of the form `f(x) = ax2 + bx + c` to each element x in the array.
+
+The returned array must be in **sorted order**.",1,https://www.jiuzhang.com/solution/sort-transformed-array,http://206.81.6.248:12306/leetcode/sort-transformed-array/description
+359,Logger Rate Limiter,-,-,0,-,http://206.81.6.248:12306/leetcode/logger-rate-limiter/description
+358,Rearrange String k Distance Apart,-,-,0,-,http://206.81.6.248:12306/leetcode/rearrange-string-k-distance-apart/description
+356,Line Reflection,直线对称,"Given `n` points on a 2D plane, find if there is such a line parallel to y-axis that reflect the given points.",1,https://www.jiuzhang.com/solution/line-reflection,http://206.81.6.248:12306/leetcode/line-reflection/description
+353,Design Snake Game,,,1,https://www.jiuzhang.com/solution/design-snake-game,http://206.81.6.248:12306/leetcode/design-snake-game/description
+351,Android Unlock Patterns,Android解锁模式,"Given an Android `3x3` key lock screen and two integers `m` and `n`, where `1 ≤ m ≤ n ≤ 9`, count the total number of unlock patterns of the Android lock screen, which consist of minimum of `m` keys and maximum `n` keys.
+
+**Rules for a valid pattern:**
+1. Each pattern must connect at least `m` keys and at most `n` keys.
+2. All the keys must be distinct.
+3. If the line connecting two consecutive keys in the pattern passes through any other keys, the other keys must have previously selected in the pattern. No jumps through non selected key is allowed.
+4. The order of keys used matters.
+![android unlock](https://lintcode-media.s3.amazonaws.com/problem/andriod-unlock.png ""android unlock"")
+**Explanation:**
+```
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
+```
+**Invalid move:** `4 - 1 - 3 - 6`
+Line 1 - 3 passes through key 2 which had not been selected in the pattern.
+
+**Invalid move:** `4 - 1 - 9 - 2`
+Line 1 - 9 passes through key 5 which had not been selected in the pattern.
+
+**Valid move:** `2 - 4 - 1 - 3 - 6`
+Line 1 - 3 is valid because it passes through key 2, which had been selected in the pattern
+
+**Valid move:** `6 - 5 - 4 - 1 - 9 - 2`
+Line 1 - 9 is valid because it passes through key 5, which had been selected in the pattern.",1,https://www.jiuzhang.com/solution/android-unlock-patterns,http://206.81.6.248:12306/leetcode/android-unlock-patterns/description
+348,Design Tic-Tac-Toe,,"Design `Tic-Tac-Toe` game.
+
+- board has fixed size of `3`
+- `X` always take the first move
+- If a place already got taken, and one player want to take that place,
+an AlreadyTakenException will be thrown
+- If one player wins, and somebody try to make another move, a GameEndException will be thrown.",0,-,http://206.81.6.248:12306/leetcode/design-tic-tac-toe/description
+346,Moving Average from Data Stream,数据流滑动窗口平均值,"Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.",0,-,http://206.81.6.248:12306/leetcode/moving-average-from-data-stream/description
+340,Longest Substring with At Most K Distinct Characters,最多有k个不同字符的最长子字符串,"Given a string *S*, find the length of the longest substring *T* that contains at most k distinct characters.",0,-,http://206.81.6.248:12306/leetcode/longest-substring-with-at-most-k-distinct-characters/description
+339,Nested List Weight Sum,,"Given a nested list of integers, return the sum of all integers in the list weighted by their depth.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+Different from the previous question where weight is increasing from root to leaf, now the weight is defined from bottom up. i.e., the leaf level integers have weight 1, and the root level integers have the largest weight.
+
+Example 1:
+Given the list [[1,1],2,[1,1]], return 8. (four 1's at depth 1, one 2 at depth 2)
+
+Example 2:
+Given the list [1,[4,[6]]], return 17. (one 1 at depth 3, one 4 at depth 2, and one 6 at depth 1; 1*3 + 4*2 + 6*1 = 17)",1,https://www.jiuzhang.com/solution/nested-list-weight-sum-ii,http://206.81.6.248:12306/leetcode/nested-list-weight-sum/description
+339,Nested List Weight Sum,嵌套列表的加权和,"Given a nested list of integers, return the sum of all integers in the list weighted by their depth. Each element is either an integer, or a list -- whose elements may also be integers or other lists.",1,https://www.jiuzhang.com/solution/nested-list-weight-sum,http://206.81.6.248:12306/leetcode/nested-list-weight-sum/description
+333,Largest BST Subtree,,,1,https://www.jiuzhang.com/solution/largest-bst-subtree,http://206.81.6.248:12306/leetcode/largest-bst-subtree/description
+325,Maximum Size Subarray Sum Equals k,最大子数组之和为k,"Given an array `nums` and a target value `k`, find the maximum length of a subarray that sums to k. If there isn't one, return 0 instead.",1,https://www.jiuzhang.com/solution/maximum-size-subarray-sum-equals-k,http://206.81.6.248:12306/leetcode/maximum-size-subarray-sum-equals-k/description
+323,Number of Connected Components in an Undirected Graph,无向图里连通域的个数,"Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge is a pair of nodes), write a function to find the number of connected components in an undirected graph.",1,https://www.jiuzhang.com/solution/number-of-connected-components-in-an-undirected-graph,http://206.81.6.248:12306/leetcode/number-of-connected-components-in-an-undirected-graph/description
+320,Generalized Abbreviation,广义缩写,Write a function to generate the generalized abbreviations of a word.(order does not matter),1,https://www.jiuzhang.com/solution/generalized-abbreviation,http://206.81.6.248:12306/leetcode/generalized-abbreviation/description
+317,Shortest Distance from All Buildings,建筑物之间的最短距离,"You want to build a house on an empty land which reaches all buildings in the shortest amount of distance. You can only move up, down, left and right. You are given a 2D grid of values **0**, **1** or **2**, where:
+
+    ·Each **0** marks an empty land which you can pass by freely.
+    ·Each **1** marks a building which you cannot pass through.
+    ·Each **2** marks an obstacle which you cannot pass through.",1,https://www.jiuzhang.com/solution/shortest-distance-from-all-buildings,http://206.81.6.248:12306/leetcode/shortest-distance-from-all-buildings/description
+314,Binary Tree Vertical Order Traversal,二叉树垂直遍历,"Given a binary tree, return the vertical order traversal of its nodes' values. (ie, from top to bottom, column by column).
+
+If two nodes are in the same row and column, the order should be from **left to right**.",1,https://www.jiuzhang.com/solution/binary-tree-vertical-order-traversal,http://206.81.6.248:12306/leetcode/binary-tree-vertical-order-traversal/description
+311,Sparse Matrix Multiplication,稀疏矩阵乘法,"Given two [Sparse Matrix](https://en.wikipedia.org/wiki/Sparse_matrix ""Sparse Matrix"") A and B, return the result of AB.
+
+You may assume that A's column number is equal to B's row number.",1,https://www.jiuzhang.com/solution/sparse-matrix-multiplication,http://206.81.6.248:12306/leetcode/sparse-matrix-multiplication/description
+308,Range Sum Query 2D - Mutable,范围矩阵元素和-可变的,"Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).",1,https://www.jiuzhang.com/solution/range-sum-query-2d-mutable,http://206.81.6.248:12306/leetcode/range-sum-query-2d-mutable/description
+308,Range Sum Query 2D - Mutable,平面范围求和 -不可变矩阵,"Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner `(row1, col1)` and lower right corner `(row2, col2)`.",1,https://www.jiuzhang.com/solution/range-sum-query-2d-immutable,http://206.81.6.248:12306/leetcode/range-sum-query-2d-mutable/description
+305,Number of Islands II,不同岛屿的数量II,"Given a non-empty 2D array `grid` of `0`'s and `1`'s, an **island** is a group of `1`'s (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+Count the number of **distinct** islands. An island is considered to be the same as another if they have the same shape, or have the same shape after **rotation** (90, 180, or 270 degrees only) or **reflection** (left/right direction or up/down direction).",1,https://www.jiuzhang.com/solution/number-of-distinct-islands-ii,http://206.81.6.248:12306/leetcode/number-of-islands-ii/description
+305,Number of Islands II,岛屿的个数II,"Given a n,m which means the row and column of the 2D matrix and an array of pair A( size k). Originally, the 2D matrix is all 0 which means there is only sea in the matrix. The list pair has k operator and each operator has two integer A[i].x, A[i].y means that you can change the grid matrix[A[i].x][A[i].y] from sea to island. Return how many island are there in the matrix after each operator.",0,-,http://206.81.6.248:12306/leetcode/number-of-islands-ii/description
+302,Smallest Rectangle Enclosing Black Pixels,包裹黑色像素点的最小矩形,"An image is represented by a binary matrix with `0` as a white pixel and `1` as a black pixel. The black pixels are connected, i.e., there is only one black region. Pixels are connected horizontally and vertically. Given the location `(x, y)` of one of the black pixels, return the area of the smallest (axis-aligned) rectangle that encloses all black pixels.",1,https://www.jiuzhang.com/solution/smallest-rectangle-enclosing-black-pixels,http://206.81.6.248:12306/leetcode/smallest-rectangle-enclosing-black-pixels/description
+298,Binary Tree Longest Consecutive Sequence,二叉树的最长连续子序列 II,"Given a binary tree, find the length of the longest consecutive sequence path.
+The path could be start and end at any node in the tree",0,-,http://206.81.6.248:12306/leetcode/binary-tree-longest-consecutive-sequence/description
+298,Binary Tree Longest Consecutive Sequence,二叉树的最长连续子序列III,"It's follow up problem for [`Binary Tree Longest Consecutive Sequence II`](http://www.lintcode.com/en/problem/binary-tree-longest-consecutive-sequence-ii/ ""Binary Tree Longest Consecutive Sequence II"")
+
+Given a `k-ary tree`, find the length of the longest consecutive sequence path.
+The path could be start and end at any node in the tree",0,-,http://206.81.6.248:12306/leetcode/binary-tree-longest-consecutive-sequence/description
+298,Binary Tree Longest Consecutive Sequence,二叉树最长连续序列,"Given a binary tree, find the length of the longest consecutive sequence path.
+
+The path refers to any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The longest consecutive path need to be from parent to child (`cannot be the reverse`).",1,https://www.jiuzhang.com/solution/binary-tree-longest-consecutive-sequence,http://206.81.6.248:12306/leetcode/binary-tree-longest-consecutive-sequence/description
+296,Best Meeting Point,-,-,0,-,http://206.81.6.248:12306/leetcode/best-meeting-point/description
+294,Flip Game II,翻转游戏II,"You are playing the following Flip Game with your friend: Given a string that contains only these two characters: `+` and `-`, you and your friend take turns to flip two **consecutive** `""++""` into `""--""`. The game ends when a person can no longer make a move and therefore the other person will be the winner.
+
+Write a function to determine if the starting player can guarantee a win.",1,https://www.jiuzhang.com/solution/flip-game-ii,http://206.81.6.248:12306/leetcode/flip-game-ii/description
+293,Flip Game,翻转游戏,"You are playing the following Flip Game with your friend: Given a string that contains only these two characters: `+` and `-`, you and your friend take turns to flip two **consecutive** `""++""` into `""--""`. The game ends when a person can no longer make a move and therefore the other person will be the winner.
+
+Write a function to compute all possible states of the string after one valid move.",1,https://www.jiuzhang.com/solution/flip-game,http://206.81.6.248:12306/leetcode/flip-game/description
+293,Flip Game,翻转游戏II,"You are playing the following Flip Game with your friend: Given a string that contains only these two characters: `+` and `-`, you and your friend take turns to flip two **consecutive** `""++""` into `""--""`. The game ends when a person can no longer make a move and therefore the other person will be the winner.
+
+Write a function to determine if the starting player can guarantee a win.",1,https://www.jiuzhang.com/solution/flip-game-ii,http://206.81.6.248:12306/leetcode/flip-game/description
+291,Word Pattern II,字模式 II,"Given a `pattern` and a string `str`, find if `str` follows the same pattern.
+
+Here **follow** means a full match, such that there is a [bijection](https://baike.baidu.com/item/%E5%8F%8C%E5%B0%84/942799?fr=aladdin ""bijection"") between a letter in `pattern` and a **non-empty** substring in `str`.(i.e if `a` corresponds to `s`, then `b` cannot correspond to `s`. For example, given pattern = `""ab""`, str = `""ss""`, return `false`.)",1,https://www.jiuzhang.com/solution/word-pattern-ii,http://206.81.6.248:12306/leetcode/word-pattern-ii/description
+288,Unique Word Abbreviation,,"An abbreviation of a word follows the form .
+Assume you have a dictionary and given a word, find whether its abbreviation is unique in the dictionary. A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.",1,https://www.jiuzhang.com/solution/unique-word-abbreviation,http://206.81.6.248:12306/leetcode/unique-word-abbreviation/description
+286,Walls and Gates,墙和门,"You are given a m x n 2D grid initialized with these three possible values.
+
+`-1`  - A wall or an obstacle.
+`0`   - A gate.
+`INF` - Infinity means an empty room. We use the value `2^31 - 1 = 2147483647` to represent INF as you may assume that the distance to a gate is less than `2147483647`.
+Fill each empty room with the distance to its nearest gate. If it is impossible to reach a `ROOM`, that room should remain filled with `INF`",1,https://www.jiuzhang.com/solution/walls-and-gates,http://206.81.6.248:12306/leetcode/walls-and-gates/description
+285,Inorder Successor in BST,二叉查找树的中序后继,"Given a binary search tree ([See Definition](http://www.lintcode.com/problem/validate-binary-search-tree/ ""BST"")) and a node in it, find the in-order successor of that node in the BST.
+
+If the given node has no in-order successor in the tree, return `null`.",1,https://www.jiuzhang.com/solution/inorder-successor-in-bst,http://206.81.6.248:12306/leetcode/inorder-successor-in-bst/description
+281,Zigzag Iterator,左旋右旋迭代器 II,"Follow up [Zigzag Iterator](http://www.lintcode.com/en/problem/zigzag-iterator/ ""Zigzag Iterator""): What if you are given `k` 1d vectors? How well can your code be extended to such cases? The ""Zigzag"" order is not clearly defined and is ambiguous for `k > 2` cases. If ""Zigzag"" does not look right to you, replace ""Zigzag"" with ""Cyclic"".",0,-,http://206.81.6.248:12306/leetcode/zigzag-iterator/description
+281,Zigzag Iterator,左旋右旋迭代器,"Given two **1d** vectors, implement an iterator to return their elements alternately.",0,-,http://206.81.6.248:12306/leetcode/zigzag-iterator/description
+280,Wiggle Sort,摆动排序 II,"Given an unsorted array `nums`, reorder it such that 
+
+```
+nums[0] < nums[1] > nums[2] < nums[3]....
+```",1,https://www.jiuzhang.com/solution/wiggle-sort-ii,http://206.81.6.248:12306/leetcode/wiggle-sort/description
+280,Wiggle Sort,摆动排序,"Given an unsorted array `nums`, reorder it **in-place** such that 
+
+```
+nums[0] <= nums[1] >= nums[2] <= nums[3]....
+```",1,https://www.jiuzhang.com/solution/wiggle-sort,http://206.81.6.248:12306/leetcode/wiggle-sort/description
+277,Find the Celebrity,识别名人,"Suppose you are at a party with `n` people (labeled from `0` to `n - 1`) and among them, there may exist one celebrity. The definition of a celebrity is that all the other `n - 1` people know him/her but he/she does not know any of them.
+
+Now you want to find out who the celebrity is or verify that there is not one. The only thing you are allowed to do is to ask questions like: ""Hi, A. Do you know B?"" to get information of whether A knows B. You need to find out the celebrity (or verify there is not one) by asking as few questions as possible (in the asymptotic sense).
+
+You are given a helper function `bool knows(a, b)` which tells you whether A knows B. Implement a function `int findCelebrity(n)`, your function should minimize the number of calls to `knows`.",1,https://www.jiuzhang.com/solution/find-the-celebrity,http://206.81.6.248:12306/leetcode/find-the-celebrity/description
+276,Paint Fence,栅栏染色,"There is a fence with `n` posts, each post can be painted with one of the `k` colors.
+You have to paint all the posts such that no more than two adjacent fence posts have the same color.
+Return the total number of ways you can paint the fence.",1,https://www.jiuzhang.com/solution/paint-fence,http://206.81.6.248:12306/leetcode/paint-fence/description
+272,Closest Binary Search Tree Value II,二叉搜索树中最接近的值 II,"Given a non-empty binary search tree and a target value, find `k` values in the BST that are closest to the target.",1,https://www.jiuzhang.com/solution/closest-binary-search-tree-value-ii,http://206.81.6.248:12306/leetcode/closest-binary-search-tree-value-ii/description
+271,Encode and Decode Strings,Encode and Decode Strings,设计一个将字符串列表编码为字符串的算法。 已经编码的字符串之后会通过网络发送同时也会被解码回到原始的字符串列表。,1,https://www.jiuzhang.com/solution/encode-and-decode-strings,http://206.81.6.248:12306/leetcode/encode-and-decode-strings/description
+270,Closest Binary Search Tree Value,二叉搜索树中最接近的值,"Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target.",1,https://www.jiuzhang.com/solution/closest-binary-search-tree-value,http://206.81.6.248:12306/leetcode/closest-binary-search-tree-value/description
+270,Closest Binary Search Tree Value,二叉搜索树中最接近的值 II,"Given a non-empty binary search tree and a target value, find `k` values in the BST that are closest to the target.",1,https://www.jiuzhang.com/solution/closest-binary-search-tree-value-ii,http://206.81.6.248:12306/leetcode/closest-binary-search-tree-value/description
+269,Alien Dictionary,外星人词典,"There is a new alien language which uses the latin alphabet. However, the order among letters are unknown to you. You receive a list of **non-empty** words from the dictionary, where words are **sorted lexicographically by the rules of this new language**. Derive the order of letters in this language.",1,https://www.jiuzhang.com/solution/alien-dictionary,http://206.81.6.248:12306/leetcode/alien-dictionary/description
+267,Palindrome Permutation II,回文排列II,"Given a string `s`, return all the palindromic permutations (**without duplicates**) of it. Return an empty list if no palindromic permutation could be form.",1,https://www.jiuzhang.com/solution/palindrome-permutation-ii,http://206.81.6.248:12306/leetcode/palindrome-permutation-ii/description
+266,Palindrome Permutation,回文排列II,"Given a string `s`, return all the palindromic permutations (**without duplicates**) of it. Return an empty list if no palindromic permutation could be form.",1,https://www.jiuzhang.com/solution/palindrome-permutation-ii,http://206.81.6.248:12306/leetcode/palindrome-permutation/description
+266,Palindrome Permutation,回文排列,"Given a string, determine if a permutation of the string could form a palindrome.",1,https://www.jiuzhang.com/solution/palindrome-permutation,http://206.81.6.248:12306/leetcode/palindrome-permutation/description
+265,Paint House II,房屋染色 II,"There are a row of `n` houses, each house can be painted with one of the `k` colors. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
+
+The cost of painting each house with a certain color is represented by a `n` x `k` cost matrix. For example, `costs[0][0]` is the cost of painting house `0` with color `0`; `costs[1][2]` is the cost of painting house `1` with color `2`, and so on... Find the minimum cost to paint all houses.
+",1,https://www.jiuzhang.com/solution/paint-house-ii,http://206.81.6.248:12306/leetcode/paint-house-ii/description
+261,Graph Valid Tree,图是否是树,"Given `n` nodes labeled from `0` to `n - 1` and a list of `undirected` edges (each edge is a pair of nodes), write a function to check whether these edges make up a valid tree.",1,https://www.jiuzhang.com/solution/graph-valid-tree,http://206.81.6.248:12306/leetcode/graph-valid-tree/description
+259,3Sum Smaller,三数之和,"Given an array of `n` integers nums and a `target`, find the number of index triplets `i, j, k` with `0 <= i < j < k < n` that satisfy the condition `nums[i] + nums[j] + nums[k] < target`.",1,https://www.jiuzhang.com/solution/3sum-smaller,http://206.81.6.248:12306/leetcode/3sum-smaller/description
+256,Paint House,房屋染色 II,"There are a row of `n` houses, each house can be painted with one of the `k` colors. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
+
+The cost of painting each house with a certain color is represented by a `n` x `k` cost matrix. For example, `costs[0][0]` is the cost of painting house `0` with color `0`; `costs[1][2]` is the cost of painting house `1` with color `2`, and so on... Find the minimum cost to paint all houses.
+",1,https://www.jiuzhang.com/solution/paint-house-ii,http://206.81.6.248:12306/leetcode/paint-house/description
+256,Paint House,房屋染色,"There are a row of `n` houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that **no two adjacent houses have the same color,** and you need to cost the least. Return the minimum cost. 
+
+The cost of painting each house with a certain color is represented by a `n` x `3` cost matrix. For example, `costs[0][0]` is the cost of painting house `0` with color red; `costs[1][2]` is the cost of painting house `1` with color green, and so on... Find the minimum cost to paint all houses.",1,https://www.jiuzhang.com/solution/paint-house,http://206.81.6.248:12306/leetcode/paint-house/description
+255,Verify Preorder Sequence in Binary Search Tree,-,-,0,-,http://206.81.6.248:12306/leetcode/verify-preorder-sequence-in-binary-search-tree/description
+254,Factor Combinations,因子组合,"Numbers can be regarded as product of its factors. For example,
+
+~~~~.
+8 = 2 x 2 x 2;
+  = 2 x 4.
+~~~~
+Write a function that takes an integer n and return all possible combinations of its factors.",1,https://www.jiuzhang.com/solution/factor-combinations,http://206.81.6.248:12306/leetcode/factor-combinations/description
+253,Meeting Rooms II,会议室 II,"Given an array of meeting time intervals consisting of start and end times `[[s1,e1],[s2,e2],...] (si < ei)`, find the minimum number of conference rooms required.",1,https://www.jiuzhang.com/solution/meeting-rooms-ii,http://206.81.6.248:12306/leetcode/meeting-rooms-ii/description
+252,Meeting Rooms,会议室,"Given an array of meeting time intervals consisting of start and end times `[[s1,e1],[s2,e2],...] (si < ei)`, determine if a person could attend all meetings.",1,https://www.jiuzhang.com/solution/meeting-rooms,http://206.81.6.248:12306/leetcode/meeting-rooms/description
+252,Meeting Rooms,会议室 II,"Given an array of meeting time intervals consisting of start and end times `[[s1,e1],[s2,e2],...] (si < ei)`, find the minimum number of conference rooms required.",1,https://www.jiuzhang.com/solution/meeting-rooms-ii,http://206.81.6.248:12306/leetcode/meeting-rooms/description
+251,Flatten 2D Vector,摊平二维向量,Implement an iterator to flatten a 2d vector.,1,https://www.jiuzhang.com/solution/flatten-2d-vector,http://206.81.6.248:12306/leetcode/flatten-2d-vector/description
+250,Count Univalue Subtrees,统计唯一值子树个数,"Given a binary tree, count the number of uni-value subtrees.
+
+A Uni-value subtree means all nodes of the subtree have the same value.",1,https://www.jiuzhang.com/solution/count-univalue-subtrees,http://206.81.6.248:12306/leetcode/count-univalue-subtrees/description
+249,Group Shifted Strings,-,-,0,-,http://206.81.6.248:12306/leetcode/group-shifted-strings/description
+248,Strobogrammatic Number III,-,-,0,-,http://206.81.6.248:12306/leetcode/strobogrammatic-number-iii/description
+247,Strobogrammatic Number II,对称数II,"A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
+Find all strobogrammatic numbers that are of length = n.",1,https://www.jiuzhang.com/solution/strobogrammatic-number-ii,http://206.81.6.248:12306/leetcode/strobogrammatic-number-ii/description
+246,Strobogrammatic Number,,"一个镜像数字是指一个数字旋转180度以后和原来一样(倒着看)。
+写下一个函数来判断是否这个数字是镜像的。数字用字符串来表示。",1,https://www.jiuzhang.com/solution/strobogrammatic-number,http://206.81.6.248:12306/leetcode/strobogrammatic-number/description
+246,Strobogrammatic Number,对称数II,"A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
+Find all strobogrammatic numbers that are of length = n.",1,https://www.jiuzhang.com/solution/strobogrammatic-number-ii,http://206.81.6.248:12306/leetcode/strobogrammatic-number/description
+245,Shortest Word Distance III,-,-,0,-,http://206.81.6.248:12306/leetcode/shortest-word-distance-iii/description
+244,Shortest Word Distance II,Shortest Word Distance II,"Design a class which receives a list of words in the constructor, and implements a method that takes two words word1 and word2 and return the shortest distance between these two words in the list. Your method will be called repeatedly many times with different parameters. 
+
+Example:
+Assume that words = [""practice"", ""makes"", ""perfect"", ""coding"", ""makes""].
+
+Input: word1 = “coding”, word2 = “practice”
+Output: 3
+Input: word1 = ""makes"", word2 = ""coding""
+Output: 1
+Note:
+You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.",1,https://www.jiuzhang.com/solution/shortest-word-distance-ii,http://206.81.6.248:12306/leetcode/shortest-word-distance-ii/description
+243,Shortest Word Distance,Shortest Word Distance,"**Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.**
+
+Example:
+Assume that words = [""practice"", ""makes"", ""perfect"", ""coding"", ""makes""].
+
+Input: word1 = “coding”, word2 = “practice”
+Output: 3
+Input: word1 = ""makes"", word2 = ""coding""
+Output: 1
+Note:
+You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.",1,https://www.jiuzhang.com/solution/shortest-word-distance,http://206.81.6.248:12306/leetcode/shortest-word-distance/description
+243,Shortest Word Distance,Shortest Word Distance II,"Design a class which receives a list of words in the constructor, and implements a method that takes two words word1 and word2 and return the shortest distance between these two words in the list. Your method will be called repeatedly many times with different parameters. 
+
+Example:
+Assume that words = [""practice"", ""makes"", ""perfect"", ""coding"", ""makes""].
+
+Input: word1 = “coding”, word2 = “practice”
+Output: 3
+Input: word1 = ""makes"", word2 = ""coding""
+Output: 1
+Note:
+You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.",1,https://www.jiuzhang.com/solution/shortest-word-distance-ii,http://206.81.6.248:12306/leetcode/shortest-word-distance/description
+186,Reverse Words in a String II,翻转字符串II,"Given an input `character array`, reverse the array word by word. A word is defined as a sequence of non-space characters.
+
+The input character array does not contain leading or trailing spaces and the words are always separated by a single space.",1,https://www.jiuzhang.com/solution/reverse-words-in-a-string-ii,http://206.81.6.248:12306/leetcode/reverse-words-in-a-string-ii/description
+186,Reverse Words in a String II,反转字符串 III,"Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.",1,https://www.jiuzhang.com/solution/reverse-words-in-a-string-iii,http://206.81.6.248:12306/leetcode/reverse-words-in-a-string-ii/description
+170,Two Sum III - Data structure design,两数之和 III-数据结构设计,"Design and implement a TwoSum class. It should support the following operations: `add` and `find`.
+
+`add` - Add the number to an internal data structure.
+`find` - Find if there exists any pair of numbers which sum is equal to the value.",0,-,http://206.81.6.248:12306/leetcode/two-sum-iii-data-structure-design/description
+163,Missing Ranges,,给定一个排序整数数组，其中元素的取值范围为[lower，upper] (包括边界)，返回其缺少的范围。,1,https://www.jiuzhang.com/solution/missing-ranges,http://206.81.6.248:12306/leetcode/missing-ranges/description
+161,One Edit Distance,,"给你两个字符串 S 和 T, 判断他们是否只差一步编辑。
+样例
+给你字符串 s = ""aDb"", t= ""adb"" 
+返回 true",1,https://www.jiuzhang.com/solution/one-edit-distance,http://206.81.6.248:12306/leetcode/one-edit-distance/description
+159,Longest Substring with At Most Two Distinct Characters,-,-,0,-,http://206.81.6.248:12306/leetcode/longest-substring-with-at-most-two-distinct-characters/description
+158,Read N Characters Given Read4 II - Call multiple times,用Read4从文件中读取N个字符 II-多次调用,"The API: `int read4(char *buf)` reads `4` characters at a time from a file.
+
+The return value is the actual number of characters read. For example, it returns 3 if there is only 3 characters left in the file.
+
+By using the read4 API, implement the function `int read(char *buf, int n)` that reads n characters from the file.",1,https://www.jiuzhang.com/solution/read-n-characters-given-read4-ii-call-multiple-times,http://206.81.6.248:12306/leetcode/read-n-characters-given-read4-ii-call-multiple-times/description
+157,Read N Characters Given Read4,,,1,https://www.jiuzhang.com/solution/read-n-characters-given-read4,http://206.81.6.248:12306/leetcode/read-n-characters-given-read4/description
+157,Read N Characters Given Read4,用Read4从文件中读取N个字符 II-多次调用,"The API: `int read4(char *buf)` reads `4` characters at a time from a file.
+
+The return value is the actual number of characters read. For example, it returns 3 if there is only 3 characters left in the file.
+
+By using the read4 API, implement the function `int read(char *buf, int n)` that reads n characters from the file.",1,https://www.jiuzhang.com/solution/read-n-characters-given-read4-ii-call-multiple-times,http://206.81.6.248:12306/leetcode/read-n-characters-given-read4/description
+156,Binary Tree Upside Down,Binary Tree Upside Down,给定一个二叉树，其中所有右节点要么是具有兄弟节点的叶节点(有一个共享相同父节点的左节点)或空白，将其倒置并将其转换为树，其中原来的右节点变为左叶子节点。返回新的根节点。,1,https://www.jiuzhang.com/solution/binary-tree-upside-down,http://206.81.6.248:12306/leetcode/binary-tree-upside-down/description
