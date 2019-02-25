@@ -5,6 +5,7 @@ from tools.all_kinds_of_types_data_to_csv import nested_list_to_csv
 from tools.get_data import get_data_by_link
 from urllib.parse import quote
 
+# 在leetcode官网上获取所有锁住的题
 url = "https://leetcode.com/api/problems/all/"
 raw_data = get_data_by_link(url)
 stat_status_pairs = raw_data["stat_status_pairs"]
@@ -18,8 +19,8 @@ for item in stat_status_pairs:
         url = "https://www.jiuzhang.com/api/solution/?search={search}"
         url = url.format(search=quote(question__title))
         data = get_data_by_link(url)
-        print(data)
         question__title_joined = question__title.replace(" ", "-").replace("---", "-").lower()
+        # 网友分享的一家公司，免费提供题目的英文描述，不仅仅是加锁的
         website_a_company = "http://206.81.6.248:12306/leetcode/" + question__title_joined + "/description"
         if data["results"]:
             for child in data["results"]:
@@ -49,6 +50,6 @@ for item in stat_status_pairs:
                                     "can_find_answer": 0, "accessible_website_jiuzhang": "-",
                                     "accessible_website_a_company": website_a_company}
             locked_questions.append(locked_question_info)
-
-nested_list_to_csv(locked_questions, "locked_questions_3.csv")
+# 保存在locked_questions_with_solutions这个文件中
+nested_list_to_csv(locked_questions, "locked_questions_with_solutions.csv")
 print("目前有" + str(len(locked_questions)) + "加锁的题目")
